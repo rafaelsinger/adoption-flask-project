@@ -545,6 +545,7 @@ a {
     #pet-data #description {
         width: 650px;
         margin: auto;
+        text-align: center;
     }
 }
 

@@ -9,7 +9,7 @@
 {% block content %}
     <section id="pet-cards">
         {% for pet in pets %}
-            <a href="{{ url_for('pet') }}">
+            <a href="{{ url_for('pet', id=pet.id) }}">
                 <div class="card">
                     <img src="{{ pet.url }}" alt="{{ pet.url_tag }}">
                     <h2>{{ pet.name }}</h2>
